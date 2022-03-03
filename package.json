@@ -1,0 +1,25 @@
+{
+  "name": "yelpcamp-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Yemi",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongoosh": "^0.0.7",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "request": "^2.88.2"
+  }
+}
